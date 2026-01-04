@@ -1,4 +1,4 @@
- body {
+body {
       font-family: Arial, sans-serif;
       background: #f4f6fb;
       display: flex;
@@ -9,22 +9,22 @@
     }
 
     .container {
-      background: #fff;
+      background: #ffffff;
       padding: 30px 40px;
       border-radius: 8px;
       text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     #verification_heading {
-      margin-bottom: 10px;
       font-size: 24px;
+      margin-bottom: 10px;
     }
 
     #verification_subtext {
-      color: #666;
-      margin-bottom: 25px;
       font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
     }
 
     .code-container {
@@ -45,5 +45,4 @@
     .code:focus {
       outline: none;
       border-color: #4a6cff;
-      box-shadow: 0 0 3px rgba(74, 108, 255, 0.6);
     }
